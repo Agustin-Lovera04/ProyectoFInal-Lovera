@@ -1,6 +1,6 @@
 function rugbyShopLogica() {
 
-  let urlBack = "../back.json"
+  let urlBack = "./back.json"
   fetch(urlBack)
     .then(Response => Response.json())
     .then((data) => {
