@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <title>RUGBY SHOP</title>
+</head>
+
+<body>
+    <div id="body">
+        <header id="header">
+            <div class="logoYBtnCarrito">
+                <div class="logoyTit">
+                    <img src="./img/rugby.png" alt="logo" class="logo">
+                    <h1 class="titulo">RUGBY SHOP</h1>
+                </div>
+                <div class="contenedorBtnCarrito">
+                    <span>
+                        <h3 id="contadorCarrito" class="contenido--Carrito"></h3>
+                    </span>
+                    <button id="carrito"></button>
+                </div>
+            </div>
+
+            <div class="bienvenida">
+                <h1 class="h1Bienvenido">Bienvenido: </h1>
+                <input type="text" id="nUser" placeholder="ESCRIBA SU NOMBRE">
+                <h2 id="bUser"></h2>
+                <button id="login">ENTRAR</button>
+            </div>
+        </header>
+        <main>
+            <div class="responsive__main">
+
+                <div class="grid__main">
+                    <div class="filtros" id="filtros">
+                        <div class="m1 esconder">
+                            <h2 class="subT sb fn esconder">FILTRAR POR NOMBRE</h2>
+                            <input type="text" id="filtroInp" placeholder=" Nombre producto ">
+                        </div>
+                        <div class="m2 esconder">
+                            <button value="botines" class="filtroCat">BOTINES</button>
+                            <button value="indumentaria" class="filtroCat">INDUMENTARIA</button>
+                            <button value="accesorios" class="filtroCat">ACCESORIOS</button>
+                            <button value="pelotas" class="filtroCat">PELOTAS</button>
+                            <button id="quitarFiltros" class="filtroCat">QUITAR FILTROS</button>
+                        </div>
+                    </div>
+                    <div class="cardsYTit">
+                        <div class="contenedorm1Ym2">
+                            <div id="m1">
+                                <div class="m3 esconder">
+                                    <h2 class=" sb contSub dest">DESTACADOS</h2>
+                                </div>
+                            </div>
+                            <div id="m2">
+                                <div id="contenedorArticulos">
+                                    <div id="articulos"></div>
+                                </div>
+                            </div>
+                    </div>
+                    <h1 class="footer" id="footer">Tu tienda Online</h1>
+                </div>
+            </div>
+            
+            
+            <div id="padreCarrito" class="oculto">
+                <div id="contenedorCarrito" class="oculto">
+                    <div id="contenidoCarrito">
+                    </div>
+                </div>
+                <div id="botonesCarrito">
+                    <div class="botonesCarrito">
+                        <button id="comprar" class="oculto">Finalizar Compra</button>
+                        <button id="inicio" class="oculto">Volver al Inicio</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </main>
+    </div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

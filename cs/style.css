@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+  margin: 4px;
+  padding: 4px;
+}
+
+.titulo {
+  color: white;
+}
+
+.fn {
+  font-size: 28px;
+}
+
+.contSub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.nUser {
+  height: 100px;
+  width: 100px;
+}
+
+#bUser {
+  font-size: 35px;
+}
+
+.subT {
+  color: white;
+  margin: 8px;
+  padding: 8px;
+}
+
+.sb {
+  color: black;
+}
+
+.m1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 12px;
+  padding-bottom: 20px;
+}
+
+.fl {
+  width: 120px;
+  height: 100px;
+}
+
+#filtroInp {
+  height: 30px;
+  width: 230px;
+}
+
+.m2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+.filtroCat {
+  background-color: lightsteelblue;
+  height: 45px;
+  width: 170px;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.filtroCat:hover {
+  background-color: midnightblue;
+  color: white;
+  padding: 7px;
+}
+
+.dest {
+  font-size: 35px;
+  margin-top: 15px;
+  padding-top: 15px;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+}
+
+#articulos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cardArticulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 3px;
+  padding: 3px;
+  height: 280px;
+  width: 240px;
+}
+
+.imgCard {
+  height: 80%;
+  width: 80%;
+  object-fit: cover;
+}
+
+.titleCard {
+  background-color: lightsteelblue;
+  margin: 5px;
+  padding: 5px;
+}
+
+.c2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 90px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.agregCarr {
+  background-color: lightblue;
+  padding: 3.5px;
+  transition: 0.3s;
+}
+
+.agregCarr:hover {
+  background-color: midnightblue;
+  color: white;
+  padding: 7px;
+}
+
+.oculto {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */
