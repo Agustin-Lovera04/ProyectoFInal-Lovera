@@ -473,6 +473,20 @@ tbody td {
     margin-top: 35px;
   }
 
+  .bienvenida{
+    gap: 2px;
+  }
+  .h1Bienvenido, #bUser{
+    font-size: 25px;
+  }
+  .btnEntrar{
+    width: auto;
+    height: 20px;
+  }
+  .inputNombre{
+    width: 60px;
+    height: 20px;
+  }
   .filtros {
     width: 100%;
     margin-bottom: 10px;
