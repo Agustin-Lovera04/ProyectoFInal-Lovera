@@ -489,11 +489,13 @@ tbody td {
   }
   .filtros {
     width: 100%;
+    height: min-content;
     margin-bottom: 10px;
     position: static;
     margin-top: 0;
     height: auto;
     padding-bottom: 5px;
+    
   }
 
   .cardsYTit {
@@ -531,7 +533,7 @@ tbody td {
 
   #padreCarrito, #contenedorCarrito{
     width: 100%;
-    height: 100%;
+    height: min-content;
   }
 
   tbody td{
